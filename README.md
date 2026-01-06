@@ -155,3 +155,6 @@ This role improved my communication skills and reinforced my understanding of co
 
 - GitHub: https://github.com/damladmrk
 - Portfolio Page: https://damladmrk.github.io
+- E-mail: damlademirok03@gmail.com
+- Additional coursework and certifications are listed in my CV.
+
