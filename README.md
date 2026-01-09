@@ -32,6 +32,35 @@ Below are projects that best represent my technical interests and engineering ap
 
 ---
 
+## Emotion Inference & Reflection System
+
+A self-reflection system that infers emotional states through indirect questions rather than direct labels, modeling uncertainty instead of certainty.
+
+Rather than asking users to name their emotions explicitly, this project explores emotional experience as a probability space. It both works for daily and event based reflection, progressively this program will give overviews and emotion patterns of user.
+
+
+**Focus Areas**
+
+- Interpretable inference systems without machine learning  
+- Modeling uncertainty and ambiguity as signals  
+- Emotional state inference without ground truth labels  
+- UX design for psychological safety and reflection  
+
+
+**Tech Stack**
+
+- React  
+- JavaScript  
+- Custom scoring and inference logic  
+
+
+**Status**
+
+Active development.  
+Future work includes temporal pattern analysis and deeper secondary emotion exploration.
+
+---
+
 ### Music Recommender System
 **Repository:** https://github.com/damladmrk/music_recommender
 
@@ -47,7 +76,7 @@ This project emphasizes interpretability and structured reasoning over black-box
 
 ---
 
-### 🧬 Genetic Algorithms
+### Genetic Algorithms
 **Repository:** https://github.com/damladmrk/GeneticAlgorithms
 
 An implementation of optimization algorithms inspired by natural selection and evolutionary processes.
@@ -62,7 +91,7 @@ This project reflects my interest in human nature implemented with our tools.
 
 ---
 
-### 🌌 Interactive Particles
+### Interactive Particles
 **Repository:** https://github.com/damladmrk/interactive_particles
 
 A real-time particle simulation system with interactive forces and dynamic behavior.
@@ -77,7 +106,7 @@ This project helped me develop a page with more calm pace.
 
 ---
 
-### 🧠 PUMap
+### PUMap
 **Repository:** https://github.com/boun-tabi-lifelu/PUMap
 
 A research-oriented project focused on protein language modeling and mapping, developed as part of a collaborative academic environment.
@@ -90,7 +119,7 @@ This project exposed me to large-scale, I am still trying to go on with this on 
 
 ---
 
-### 🌱 MentalGarden
+### MentalGarden
 **Repository:** https://github.com/damladmrk/MentalGarden
 
 A concept-driven software project exploring how digital systems can support psychological well-being.
