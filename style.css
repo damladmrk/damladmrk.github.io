@@ -1,0 +1,156 @@
+:root {
+    /* Renk Paleti: Klasik & Akademik */
+    --bg-color: #fbf9f6;          /* Yumuşak Kitap Sayfası Rengi */
+    --text-color: #2b2621;        /* Koyu Kahve / Espresso */
+    --primary-color: #3d5a45;     /* Mat Akademi Yeşili */
+    --accent-color: #d4a373;      /* Sıcak Amber / Hardal Sarısı */
+    --card-bg: #ffffff;           /* Temiz Beyaz */
+    --border-color: #e6dfd5;      /* Hafif Kahvemsi Gri Çizgiler */
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    line-height: 1.7;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Modern ve Net Düzen İçin Konteyner */
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.05rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+
+.links {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.95rem;
+}
+
+.links a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent-color);
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+}
+
+.links a:hover {
+    color: var(--primary-color);
+    border-bottom-style: solid;
+}
+
+/* Bölüm Başlıkları */
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+/* Başlıkların yanına şık bir klasik çizgi ekler */
+section h2::after {
+    content: "";
+    flex: 1;
+    margin-left: 15px;
+    height: 1px;
+    background-color: var(--border-color);
+}
+
+/* Proje Kartları */
+.project-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--accent-color); /* Sarı/Amber vurgu çizgisi */
+    border-radius: 4px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(43, 38, 33, 0.04);
+}
+
+.project-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
+
+/* Badge (Etiket) Düzenlemesi */
+.badge {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #edf1ee; /* Hafif yeşil tonlu arka plan */
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Yetenekler Alanı */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.skills-grid h3 {
+    font-size: 1.15rem;
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.skills-grid p {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid var(--border-color);
+    color: #8a817c;
+    font-size: 0.85rem;
+    margin-top: 60px;
+}
+
+strong {
+    color: var(--primary-color);
+}
